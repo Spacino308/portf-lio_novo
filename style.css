@@ -1,0 +1,118 @@
+/*paleta de cores
+#021024 azul escuro
+#052659 azul
+#5483B3 azul claro
+#7DA0CA cinza
+#C1E8FF fundo claro
+*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Courier New, Consolas, Space Mono;
+    /* Courier New, Consolas, Space Mono */
+}
+.main{
+    margin: 0; 
+    padding: 0;
+    height:100vh; 
+    width:100%;
+    background-image: url(./imagens/pexels-lukas-hartmann-304281-1055613.jpg); 
+    background-repeat: no-repeat;
+    background-position: center; 
+    
+    /*background-color:#C1E8FF; 
+    /*background: url('fundoazul.jpg'); */
+    
+}
+.menu_total{
+    background-color:#0d192b;
+    color: #f8f9fa;
+    display: flex;
+}
+.foto_perfil{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 15px;
+    margin-bottom: 8px;
+    transition: all 0.3s ease;
+}
+.foto_perfil:hover{
+    height: 110px;
+    width: 110px;
+    transform: scale(1.1);
+}
+.atalhos{
+   margin-left: 50%;
+   margin-top: 3%;
+   transform: translate(-50%, -3%);
+}
+
+.nome{
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 150px;
+    height: 50px;
+}
+.central{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: yellow;
+
+}
+.botoes{
+    position: fixed;
+    width: 60px;
+    height: 200px;
+    top: 30%;
+    left: 2%;
+    transform: translate(-30%, -2%);
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+}
+.botao_link{
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.botao_link:hover{
+    color: yellow;
+    text-decoration: none;
+    cursor: pointer;
+    transform: scale(1.1);
+    
+}
+.botao{
+    background-color: #052659;
+    color: white;
+    width: 180px;
+    height: 40px;
+    border-radius:100px;
+    transition: all 0.3s ease;
+}
+.botao:hover{
+    background-color: yellow;
+    color: #052659;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.imgs{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+    box-shadow: 5px 5px 10px; color: rgb(66, 64, 64);
+    border-radius: 30%;
+}
+.imgs:hover{
+    width:60px;
+    height:60px;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
